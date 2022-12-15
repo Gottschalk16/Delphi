@@ -1,0 +1,42 @@
+unit ClassRemuneracaoEstagio;
+
+interface
+
+uses
+  InterfaceRemuneracao;
+
+type
+   TRenumeracaoEstagio = class(TInterfacedObject, iRemuneravel)
+   private
+      {Private}
+   public
+      constructor Create;
+      destructor Destroy; override;
+      class function New: iRemuneravel;
+      function getRemuneracao: Currency;
+end;
+
+implementation
+
+{ TRenumeracaoEstagio }
+
+constructor TRenumeracaoEstagio.Create;
+begin
+end;
+
+destructor TRenumeracaoEstagio.Destroy;
+begin
+  inherited;
+end;
+
+function TRenumeracaoEstagio.getRemuneracao: Currency;
+begin
+
+end;
+
+class function TRenumeracaoEstagio.New: iRemuneravel;
+begin
+
+end;
+
+end.

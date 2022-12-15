@@ -1,0 +1,11 @@
+unit InterfaceRemuneracao;
+
+interface
+
+type iRemuneravel = interface
+   function getRemuneracao: iRemuneravel;
+end;
+
+implementation
+
+end.

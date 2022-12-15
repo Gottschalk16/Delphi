@@ -1,0 +1,42 @@
+unit ClassRemuneracao;
+
+interface
+
+uses
+  InterfaceRemuneracao;
+
+type
+   TRemuneravel = class(TInterfacedObject, iRemuneravel)
+   private
+   public
+      constructor Create;
+      destructor Destroy; override;
+      class function New: iRemuneravel;
+      function getRemuneracao: Currency;
+end;
+
+implementation
+
+{ TRemuneravel }
+
+constructor TRemuneravel.Create;
+begin
+end;
+
+destructor TRemuneravel.Destroy;
+begin
+  inherited;
+end;
+
+class function TRemuneravel.New: iRemuneravel;
+begin
+   Result := Self.Create;
+end;
+
+function TRemuneravel.getRemuneracao: iRemuneravel;
+begin
+   Result := Self;
+
+end;
+
+end.

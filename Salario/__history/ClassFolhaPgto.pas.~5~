@@ -1,0 +1,30 @@
+unit ClassFolhaPgto;
+
+interface
+
+uses
+   System.Classes, ClassRemuneracao, ClassRemuneracaoEstagio;
+
+type
+   TFolhaPgto = class(TPersistent)
+   private
+      {Private}
+   public
+      constructor Create;
+      destructor Destroy; override;
+end;
+
+implementation
+
+{ TFolhaPgto }
+
+constructor TFolhaPgto.Create;
+begin
+end;
+
+destructor TFolhaPgto.Destroy;
+begin
+  inherited;
+end;
+
+end.

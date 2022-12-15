@@ -1,0 +1,25 @@
+unit ClassRemuneracaoEstagio;
+
+interface
+
+uses
+  InterfaceRemuneracao;
+
+type
+   TRenumeracaoEstagio = class(TInterfacedObject, iRemuneravel)
+   private
+      {Private}
+   public
+      function getRemuneracao: Currency;
+end;
+
+implementation
+
+{ TRenumeracaoEstagio }
+
+function TRenumeracaoEstagio.getRemuneracao: Currency;
+begin
+
+end;
+
+end.

@@ -1,0 +1,37 @@
+unit ClassFolhaPgto;
+
+interface
+
+uses
+   System.Classes, InterfaceRemuneracao;
+
+type
+    TFolhaPgto = class(TPersistent)
+   private
+      {Private}
+   protected
+   public
+      constructor Create;
+      destructor Destroy; override;
+      function Calcular(_AFuncionario: iRemuneravel): currency;
+end;
+
+implementation
+
+{ TFolhaPgto }
+
+function TFolhaPgto.Calcular(_AFuncionario: iRemuneravel): currency;
+begin
+   Result := _AFuncionario.getRemuneracao;
+end;
+
+constructor TFolhaPgto.Create;
+begin
+end;
+
+destructor TFolhaPgto.Destroy;
+begin
+  inherited;
+end;
+
+end.

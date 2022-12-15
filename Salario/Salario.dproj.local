@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/04/12 19:59:56.000.352,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/12 20:18:09.000.231,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/26 19:38:41.000.440,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/16 18:51:16.000.357,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1.html</Transaction>
+    <Transaction>2022/05/16 18:51:16.000.535,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/15 18:43:25.000.123,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/15 18:50:34.000.177,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Projetos Delphi\SOLID\Salario\Principal.dfm</Transaction>
+    <Transaction>2022/12/15 18:50:34.000.177,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Projetos Delphi\SOLID\Salario\Principal.pas</Transaction>
+    <Transaction>2022/12/15 18:50:38.000.854,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Projetos Delphi\SOLID\Salario\Salario.dproj</Transaction>
+    <Transaction>2022/12/15 18:52:26.000.833,=D:\Projetos Delphi\SOLID\Salario\Unit1.pas</Transaction>
+    <Transaction>2022/12/15 18:53:06.000.623,D:\Projetos Delphi\SOLID\Salario\Unit1.pas=D:\Projetos Delphi\SOLID\Salario\ClassRemuneracao.pas</Transaction>
+    <Transaction>2022/12/15 18:54:12.000.128,=D:\Projetos Delphi\SOLID\Salario\Unit1.pas</Transaction>
+    <Transaction>2022/12/15 18:54:29.000.457,D:\Projetos Delphi\SOLID\Salario\Unit1.pas=D:\Projetos Delphi\SOLID\Salario\InterfaceRemuneracao.pas</Transaction>
+    <Transaction>2022/12/15 19:08:27.000.756,=D:\Projetos Delphi\SOLID\Salario\Unit1.pas</Transaction>
+    <Transaction>2022/12/15 19:10:44.000.226,D:\Projetos Delphi\SOLID\Salario\Unit1.pas=D:\Projetos Delphi\SOLID\Salario\ClassRemuneracaoEstagio.pas</Transaction>
+    <Transaction>2022/12/15 19:11:54.000.318,=D:\Projetos Delphi\SOLID\Salario\Unit1.pas</Transaction>
+    <Transaction>2022/12/15 19:14:13.000.382,D:\Projetos Delphi\SOLID\Salario\Unit1.pas=D:\Projetos Delphi\SOLID\Salario\ClassFolhaPgto.pas</Transaction>
+  </Transactions>
+</BorlandProject>

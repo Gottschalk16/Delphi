@@ -1,0 +1,32 @@
+unit ClassFolhaPgto;
+
+interface
+
+uses
+   System.Classes, ClassRemuneracao, ClassRemuneracaoEstagio;
+
+type
+   TFolhaPgto = class(TPersistent)
+   private
+      {Private}
+   protected
+   public
+      constructor Create(_ATipoRemuneracao: integer);
+      destructor Destroy; override;
+      function CalcularRemuneravel: currency;
+end;
+
+implementation
+
+{ TFolhaPgto }
+
+constructor TFolhaPgto.Create(_ATipoRemuneracao: integer);
+begin
+end;
+
+destructor TFolhaPgto.Destroy;
+begin
+  inherited;
+end;
+
+end.
