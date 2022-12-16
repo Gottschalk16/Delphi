@@ -3,7 +3,6 @@ program Observer;
 uses
   Vcl.Forms,
   Principal in 'Principal.pas' {frmPrincipal},
-  Modal.Subject in 'modals\Modal.Subject.pas',
   Modal.Observer in 'modals\Modal.Observer.pas',
   Modal.Interfaces in 'interfaces\Modal.Interfaces.pas',
   Modal.Records in 'modals\Modal.Records.pas',

@@ -102,7 +102,6 @@
             <Form>frmPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="modals\Modal.Subject.pas"/>
         <DCCReference Include="modals\Modal.Observer.pas"/>
         <DCCReference Include="interfaces\Modal.Interfaces.pas"/>
         <DCCReference Include="modals\Modal.Records.pas"/>
