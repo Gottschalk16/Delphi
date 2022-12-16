@@ -10,16 +10,16 @@ uses
 
 type
   TfrmAgrupamento = class(TFrame, iObserver)
-    DBGrid1: TDBGrid;
-    lblAgrupamento: TLabel;
-    CdsAgrupamento: TClientDataSet;
-    DsAgrupamento: TDataSource;
-    CdsAgrupamentoCategoria: TStringField;
-    CdsAgrupamentoTotal: TCurrencyField;
+     DBGrid1: TDBGrid;
+     lblAgrupamento: TLabel;
+     CdsAgrupamento: TClientDataSet;
+     DsAgrupamento: TDataSource;
+     CdsAgrupamentoCategoria: TStringField;
+     CdsAgrupamentoTotal: TCurrencyField;
   private
   public
-      procedure AtualizarCredito(_Notificacao: TNotificacao);
-      procedure AtualizarDebito(_Notificacao: TNotificacao);
+     procedure AtualizarCredito(_Notificacao: TNotificacao);
+     procedure AtualizarDebito(_Notificacao: TNotificacao);
   end;
 
 implementation
