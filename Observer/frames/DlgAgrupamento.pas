@@ -30,7 +30,6 @@ implementation
 
 procedure TfrmAgrupamento.AtualizarCredito(_Notificacao: TNotificacao);
 begin
-//   raise Exception.Create('Operação do tipo Crédito não permitida!');
 end;
 
 procedure TfrmAgrupamento.AtualizarDebito(_Notificacao: TNotificacao);
