@@ -9,8 +9,8 @@ uses
 
 type
   TfrmLogs = class(TFrame, iObserver)
-    mLogs: TMemo;
-    lblLogs: TLabel;
+     mLogs: TMemo;
+     lblLogs: TLabel;
   private
   public
      procedure AtualizarCredito(_Notificacao: TNotificacao);
@@ -27,7 +27,7 @@ procedure TfrmLogs.AtualizarCredito(_Notificacao: TNotificacao);
 var
    AStr: string;
 begin
-   AStr := Format('Uma operação de Crédito de %.2f foi adicionada', [_Notificacao.Valor]);
+   AStr := Format('Uma operaÃ§Ã£o de CrÃ©dito de %.2f foi adicionada', [_Notificacao.Valor]);
    mLogs.Lines.Add(AStr);
 end;
 
@@ -35,7 +35,7 @@ procedure TfrmLogs.AtualizarDebito(_Notificacao: TNotificacao);
 var
    AStr: string;
 begin
-   AStr := Format('Uma operação de Débito de %.2f foi adicionada', [_Notificacao.Valor]);
+   AStr := Format('Uma operaÃ§Ã£o de DÃ©bito de %.2f foi adicionada', [_Notificacao.Valor]);
    mLogs.Lines.Add(AStr);
 end;
 
