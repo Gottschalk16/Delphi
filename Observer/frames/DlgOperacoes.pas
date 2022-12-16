@@ -13,17 +13,17 @@ type
      btnGravar: TButton;
      cbOperacao: TComboBox;
      cbCategoria: TComboBox;
-    cdsOperacoes: TClientDataSet;
-    eValor: TEdit;
-    DBGrid1: TDBGrid;
-    Label1: TLabel;
-    Label2: TLabel;
-    lblValor: TLabel;
-    DsOperacoes: TDataSource;
-    cdsOperacoesOpercao: TStringField;
-    cdsOperacoesCategoria: TStringField;
-    cdsOperacoesValor: TCurrencyField;
-    procedure btnGravarClick(Sender: TObject);
+     cdsOperacoes: TClientDataSet;
+     eValor: TEdit;
+     DBGrid1: TDBGrid;
+     Label1: TLabel;
+     Label2: TLabel;
+     lblValor: TLabel;
+     DsOperacoes: TDataSource;
+     cdsOperacoesOpercao: TStringField;
+     cdsOperacoesCategoria: TStringField;
+     cdsOperacoesValor: TCurrencyField;
+     procedure btnGravarClick(Sender: TObject);
   private
      FObservers: TList<iObserver>;
   public
@@ -74,7 +74,7 @@ begin
    ANotificacao.Categoria := cdsOperacoes.FieldByName('categoria').AsString;
    ANotificacao.Valor := cdsOperacoes.FieldByName('valor').AsCurrency;
    for AObserver in FObservers do
-      if cbOperacao.Text = 'Crédito' then
+      if cbOperacao.Text = 'CrÃ©dito' then
          AObserver.AtualizarCredito(ANotificacao)
       else
          AObserver.AtualizarDebito(ANotificacao);
