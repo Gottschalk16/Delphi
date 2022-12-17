@@ -140,8 +140,13 @@ begin
       eCentroCtoFilho.SetFocus;
       Exit;
    end;
-   if (not TryStrToCurr(eVlrOperacao.Text, AVlrOper)) or (eVlrOperacao.Text = '0') then begin
-      ShowMessage('O valor informado não é permitido.');
+   if (not TryStrToCurr(eVlrOperacao.Text, AVlrOper)) then begin
+      ShowMessage('Caracteres não permitidos no valor do orçamento.');
+      eVlrOperacao.SetFocus;
+      Exit;
+   end;
+   if (eVlrOperacao.Text = '0') then begin
+      ShowMessage('O valor do orçamento deve ser maior que 0.');
       eVlrOperacao.SetFocus;
       Exit;
    end;
