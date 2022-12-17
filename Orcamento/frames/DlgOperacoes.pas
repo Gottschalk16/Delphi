@@ -141,7 +141,7 @@ begin
       Exit;
    end;
    if (not TryStrToCurr(eVlrOperacao.Text, AVlrOper)) then begin
-      ShowMessage('Caracteres não permitidos no valor do orçamento.');
+      ShowMessage('Caractere(s) não permitido(s) no valor do orçamento.');
       eVlrOperacao.SetFocus;
       Exit;
    end;
