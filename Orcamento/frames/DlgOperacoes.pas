@@ -86,22 +86,22 @@ begin
    eCentroCtoFilho.Text := TFuncoes.Zeros(eCentroCtoFilho.Text, 4);
 end;
 
-procedure TfrmOperacoes.eCentroCtoFilhoKeyDown(Sender: TObject;
-  var Key: Word; Shift: TShiftState);
+procedure TfrmOperacoes.eCentroCtoFilhoKeyDown(Sender: TObject; var Key: Word;
+   Shift: TShiftState);
 begin
    if Key = VK_RETURN then
       eVlrOperacao.SetFocus;
 end;
 
 procedure TfrmOperacoes.eCentroCtoKeyDown(Sender: TObject; var Key: Word;
-  Shift: TShiftState);
+   Shift: TShiftState);
 begin
    if Key = VK_RETURN then
       eCentroCtoFilho.SetFocus;
 end;
 
 procedure TfrmOperacoes.eVlrOperacaoKeyDown(Sender: TObject; var Key: Word;
-  Shift: TShiftState);
+   Shift: TShiftState);
 begin
    if Key = VK_RETURN then
       btnGravar.SetFocus;
