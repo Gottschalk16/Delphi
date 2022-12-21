@@ -41,6 +41,9 @@ object frmPrincipal: TfrmPrincipal
     Height = 157
     TabOrder = 2
     ExplicitLeft = 352
+    inherited DBAgrupamento: TDBGrid
+      TabStop = False
+    end
   end
   inline frmAgrupCentroCtoFilho: TfrmAgrupCentroCtoFilho
     Left = 352
@@ -50,5 +53,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 3
     ExplicitLeft = 352
     ExplicitTop = 159
+    inherited DBAgrupamento: TDBGrid
+      TabStop = False
+    end
   end
 end
