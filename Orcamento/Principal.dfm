@@ -22,15 +22,17 @@ object frmPrincipal: TfrmPrincipal
     Width = 352
     Height = 317
     TabOrder = 0
+    inherited DBOperacoes: TDBGrid
+      Height = 167
+    end
   end
   inline frmBalancoCentroCto: TfrmBalancoCentroCto
     Left = 0
-    Top = 240
-    Width = 58
-    Height = 47
+    Top = 288
+    Width = 352
+    Height = 28
     TabOrder = 1
-    Visible = False
-    ExplicitTop = 240
+    ExplicitTop = 288
   end
   inline frmAgrupCentroCto: TfrmAgrupCentroCto
     Left = 352

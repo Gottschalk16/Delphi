@@ -145,7 +145,7 @@ begin
       eVlrOperacao.SetFocus;
       Exit;
    end;
-   if (eVlrOperacao.Text = '0') then begin
+   if (StrToCurrDef(eVlrOperacao.Text, 0) <= 0) then begin
       ShowMessage('O valor do orçamento deve ser maior que 0.');
       eVlrOperacao.SetFocus;
       Exit;

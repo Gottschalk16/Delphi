@@ -9,6 +9,8 @@ uses
 
 type
    TfrmBalancoCentroCto = class(TFrame, iObserver)
+      lblTotalOrcamento: TLabel;
+      lblVlrTotOrcamento: TLabel;
    private
       FTotOrcamento: Currency;
       property TotalOrcamento: Currency read FTotOrcamento;
@@ -31,7 +33,8 @@ end;
 
 procedure TfrmBalancoCentroCto.MostarValores;
 begin
-   ShowMessage('Total do orçamento: R$' + FormatFloat('###,##0.00', TotalOrcamento));
+   lblVlrTotOrcamento.Caption := 'R$ ' + FormatFloat('###,##0.00', TotalOrcamento);
+   ShowMessage('Total do orçamento: R$ ' + FormatFloat('###,##0.00', TotalOrcamento));
 end;
 
 end.
