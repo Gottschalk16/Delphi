@@ -30,7 +30,7 @@ object frmOperacoes: TfrmOperacoes
     Top = 70
     Width = 75
     Height = 33
-    Caption = 'Gravar'
+    Caption = 'Confirmar'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
