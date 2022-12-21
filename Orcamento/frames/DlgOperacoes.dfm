@@ -5,21 +5,21 @@ object frmOperacoes: TfrmOperacoes
   Height = 317
   TabOrder = 0
   object lblCentroCustos: TLabel
-    Left = 16
+    Left = 8
     Top = 17
     Width = 96
     Height = 13
     Caption = 'Centro custos (Pai):'
   end
   object lblCentroCtoFilho: TLabel
-    Left = 128
+    Left = 122
     Top = 17
     Width = 104
     Height = 13
     Caption = 'Centro custos (Filho):'
   end
   object lblVlrOrcamento: TLabel
-    Left = 240
+    Left = 236
     Top = 17
     Width = 82
     Height = 13
@@ -41,7 +41,7 @@ object frmOperacoes: TfrmOperacoes
     OnClick = btnGravarClick
   end
   object eCentroCto: TEdit
-    Left = 16
+    Left = 8
     Top = 36
     Width = 104
     Height = 21
@@ -52,7 +52,7 @@ object frmOperacoes: TfrmOperacoes
     OnKeyDown = eCentroCtoKeyDown
   end
   object eCentroCtoFilho: TEdit
-    Left = 128
+    Left = 122
     Top = 36
     Width = 104
     Height = 21
@@ -77,7 +77,7 @@ object frmOperacoes: TfrmOperacoes
     TitleFont.Style = []
   end
   object eVlrOperacao: TEdit
-    Left = 240
+    Left = 236
     Top = 36
     Width = 104
     Height = 21
