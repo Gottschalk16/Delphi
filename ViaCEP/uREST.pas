@@ -16,7 +16,7 @@ type
     FnStatus: integer;
     procedure MontarRest(_AParametros: IConfiguracao);
   public
-    function RESTRequest(_AParametrosREST: IConfiguracao): iRest;
+    function RESTRequest(_AParametrosREST: IConfiguracao): iRest; overload;
     function RestRequest: TRESTRequest; overload;
 
     function Execute: iRest;
