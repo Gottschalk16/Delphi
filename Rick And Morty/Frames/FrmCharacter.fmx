@@ -1,0 +1,61 @@
+object FrmDlgCharacter: TFrmDlgCharacter
+  Size.Width = 233.000000000000000000
+  Size.Height = 234.000000000000000000
+  Size.PlatformDefault = False
+  object RgBackground: TRectangle
+    Corners = [TopLeft, TopRight, BottomLeft]
+    Fill.Color = xA6A4DE02
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 218.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 25.000000000000000000
+    YRadius = 25.000000000000000000
+    object LblName: TLabel
+      Align = Bottom
+      StyledSettings = []
+      Position.Y = 177.000000000000000000
+      Size.Width = 209.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Bebas Neue'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Name'
+      TabOrder = 0
+    end
+    object Shadow: TShadowEffect
+      Distance = 6.000000000000000000
+      Direction = 50.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.500000000000000000
+      ShadowColor = xFF646464
+    end
+    object RgCharacter: TRectangle
+      Align = Top
+      Corners = [TopLeft, TopRight]
+      Fill.Bitmap.WrapMode = Tile
+      Fill.Kind = Bitmap
+      Size.Width = 209.000000000000000000
+      Size.Height = 168.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 25.000000000000000000
+      YRadius = 25.000000000000000000
+    end
+  end
+  object RgId: TRectangle
+    Fill.Kind = None
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 218.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    OnClick = RgIdClick
+  end
+end
