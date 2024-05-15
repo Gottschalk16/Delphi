@@ -3,7 +3,6 @@ program Observer;
 uses
   Vcl.Forms,
   Principal in 'Principal.pas' {frmPrincipal},
-  Modal.Observer in 'modals\Modal.Observer.pas',
   Modal.Interfaces in 'interfaces\Modal.Interfaces.pas',
   Modal.Records in 'modals\Modal.Records.pas',
   DlgBalancoFinanceiro in 'frames\DlgBalancoFinanceiro.pas' {frmBalancoFinanceiro: TFrame},
